@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="53px" viewBox="0 0 230 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-36.000000, -32.000000)">
+            <g id="Logo---Navbar" transform="translate(36.000000, 25.000000)">
+                <g id="Group">
+                    <text id="elmhurst-land" font-family="MajorMonoDisplay-Regular, Major Mono Display" font-size="24" font-weight="normal" line-spacing="30" letter-spacing="3" fill="#FFFFFF">
+                        <tspan x="69" y="27">elmhurst </tspan>
+                        <tspan x="69" y="60" font-size="16">land</tspan>
+                    </text>
+                    <g id="Pipes" transform="translate(0.000000, 7.000000)" fill="#EDEDED">
+                        <rect id="Rectangle" x="9" y="0" width="4" height="44"></rect>
+                        <rect id="Rectangle" x="0" y="0" width="4" height="52"></rect>
+                        <rect id="Rectangle" x="18" y="0" width="4" height="35"></rect>
+                        <rect id="Rectangle" x="27" y="0" width="4" height="26"></rect>
+                        <polygon id="Rectangle" transform="translate(31.000000, 42.000000) rotate(-90.000000) translate(-31.000000, -42.000000) " points="29 21 33 21 33 63 29 63"></polygon>
+                        <polygon id="Rectangle" transform="translate(26.000000, 51.000000) rotate(-90.000000) translate(-26.000000, -51.000000) " points="24 25 28 25 28 77 24 77"></polygon>
+                        <polygon id="Rectangle" transform="translate(39.500000, 24.000000) rotate(-90.000000) translate(-39.500000, -24.000000) " points="37.5 11.5 41.5 11.5 41.5 36.5 37.5 36.5"></polygon>
+                        <polygon id="Rectangle" transform="translate(35.000000, 33.000000) rotate(-90.000000) translate(-35.000000, -33.000000) " points="33 16 37 16 37 50 33 50"></polygon>
+                        <polygon id="Rectangle" transform="translate(39.500000, 13.000000) rotate(-90.000000) translate(-39.500000, -13.000000) " points="37.5 0.5 41.5 0.5 41.5 25.5 37.5 25.5"></polygon>
+                        <polygon id="Rectangle" transform="translate(39.500000, 2.000000) rotate(-90.000000) translate(-39.500000, -2.000000) " points="37.5 -10.5 41.5 -10.5 41.5 14.5 37.5 14.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
