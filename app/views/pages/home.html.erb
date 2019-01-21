@@ -12,7 +12,7 @@
 </div>
 
 <div class="wrapper-grey hidden-xs hidden-sm">
-  <div class="container-about">
+  <div class="container-about" id="what-we-do">
     <div class="row">
       <div class="col-md-6 about-content">
         <h2>elmhurst land offers property owners:</h2>
@@ -49,10 +49,10 @@
 </div>
 
 <div class="wrapper-grey hidden-md hidden-lg">
-  <div class="container-sm">
+  <div class="container-sm"id="what-we-do">
     <div class="row">
       <div class="col-xs-12 about-content">
-        <h2 style="margin: 50px 25px 0 25px !important">elmhurst land offers property owners:</h2>
+        <h2 style="margin: 75px 25px 0 25px !important">elmhurst land offers property owners:</h2>
         <ul>
           <li>ASSESSMENT OF THEIR PROPERTY ASSETS</li><br>
           <li>DEVELOPMENT OPTIONS ANALYSIS</li><br>
@@ -86,7 +86,7 @@
 </div>
 
 <div class="wrapper hidden-xs hidden-sm">
-  <div class="container-dom">
+  <div class="container-dom" id="about">
     <div class="row">
       <div class="col-xs-4 about-content hidden-xs hidden-sm">
         <h2>about dominic</h2>
@@ -106,7 +106,7 @@
 </div>
 
 <div class="wrapper hidden-md hidden-lg">
-  <div class="container-dom-sm">
+  <div class="container-dom-sm" id="about">
     <div class="row">
       <div class="col-xs-12 about-content">
         <h2>about dominic</h2>
@@ -124,6 +124,18 @@
     </div>
   </div>
 </div>
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 
 
 
