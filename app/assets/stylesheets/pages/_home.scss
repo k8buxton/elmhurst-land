@@ -14,6 +14,9 @@ p {
 h1 {
   font-size: 32px;
 }
+h2 {
+  font-size: 24px;
+}
 .wrapper {
   background-color: #EDEDED;
 }
@@ -38,11 +41,64 @@ h1 {
 .wrapper-grey {
   background-color: #D8D8D8;
 }
-.container-grey {
-  text-align: center;
+.row {
+  width: 100vw !important;
+  margin: 50px 0;
+}
+.about-content h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  line-height: 40px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  max-width: 360px;
+}
+.about-content li {
+  line-height: 25px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+.about-content ul {
+  margin-top: 25px;
+  max-width: 90%;
+}
+.container-about {
+  display: flex;
+  margin: auto 100px;
+}
+.container-sm {
+  display: flex;
+  margin: auto;
+}
+.photo {
+  margin: 150px 0;
+}
+.photo-sm {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-dom {
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 50px;
+  padding: 0 75px;
 }
-
+.container-dom-sm {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  text-align: center;
+}
+.container-dom h2 {
+  margin-top: 0px !important;
+  max-width: 232px
+}
+.text-padding-left {
+  padding-left: 40px;
+}
+.dp-sm {
+  margin-top: 20px;
+}
