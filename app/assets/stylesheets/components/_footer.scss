@@ -5,6 +5,23 @@
   justify-content: space-between;
   padding: 0px 50px;
   color: #EDEDED !important;
+  p {
+    font-size: 11px;
+    line-height: 5px;
+    color: #EDEDED;
+  }
+  a {
+    font-size: 11px;
+    line-height: 5px;
+    color: #EDEDED;
+    letter-spacing: 1.5px;
+    margin-bottom: 0px !important;
+  }
+  h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+  }
 }
 .footer-lg {
   height: 250px;
@@ -12,26 +29,12 @@
 .footer-sm {
   height: 300px;
 }
+.footer-sm a {
+  text-decoration: none !important;
+}
 .footer-logo {
   display: flex;
   align-items: center;
-}
-.footer p {
-  font-size: 10px;
-  line-height: 5px;
-  color: #EDEDED;
-}
-.footer a {
-  font-size: 10px;
-  line-height: 5px;
-  color: #EDEDED;
-  letter-spacing: 1.5px;
-  margin-bottom: 0px !important;
-}
-.footer h3 {
-  font-size: 28px;
-  margin-bottom: 25px;
-  letter-spacing: 1.5px;
 }
 .footer-margin-right {
   margin-right: 10%;
@@ -40,5 +43,5 @@
   margin-left: 5%;
 }
 .footer-sm p {
-  padding-left: 20px;
+  margin-left: 20px;
 }
