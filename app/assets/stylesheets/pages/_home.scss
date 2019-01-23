@@ -3,12 +3,25 @@
   height: 100vh;
   margin-top: -100px;
   background-size: cover !important;
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.2) 50%), image-url('aerial.jpg');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 50%), image-url('aerial.jpg');
   background-position: center;
-  animation: zoomin 15s;
-  -webkit-animation: zoomin 15s;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 940px) {
+    animation: zoomin 15s;
+    -webkit-animation: zoomin 15s;
+  }
+}
+#headline {
+  width: 300px;
+  line-height: 2;
+  font-size: 16px;
+  color: #EDEDED;
+  font-weight: 400;
+  padding-top: 50px;
 }
 p {
   color: rgb(30, 30, 30);
@@ -29,19 +42,19 @@ h2 {
 
 @keyframes zoomin {
   0% {
-    background-size: 100%;
+    background-size: 120%;
   }
   100% {
-    background-size: 130%;
+    background-size: 150%;
   }
 }
 
 @-webkit-keyframes zoomin {
   0% {
-    -webkit-background-size: 100%;
+    -webkit-background-size: 120%;
   }
   100% {
-    -webkit-background-size: 130%;
+    -webkit-background-size: 150%;
   }
 }
 
