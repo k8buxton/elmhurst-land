@@ -17,3 +17,12 @@
 .dp-sm {
   margin-top: 20px;
 }
+#dom-heading {
+  @media (min-width: 768px) {
+  width: 231px !important;
+  }
+  @media (max-width: 768px) {
+  text-align: center;
+  }
+}
+
