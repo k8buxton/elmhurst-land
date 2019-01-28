@@ -9,6 +9,13 @@
   margin-right: 20px;
   margin-bottom: 150px;
 }
+.sm-cards {
+  width: 305px;
+  margin: auto;
+  margin-bottom: 100px;
+  // display: flex;
+  // justify-content: space-between;
+}
 .cards p {
   margin: 10px !important;
 }
@@ -28,19 +35,10 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
   border-radius: 2px;
-  // z-index: 10000;
-}
-.sm-cards {
-  width: 305px;
-  margin: auto;
-  margin-bottom: 100px;
 }
 .card:hover {
   margin-top: -10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('');
-}
-.sm-card:hover {
-  margin-top: 0px !important;
 }
 .card-body {
   position: relative;
