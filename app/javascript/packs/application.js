@@ -4,3 +4,4 @@ import { initSmoothScroll } from '../components/smooth_scroll';
 
 initUpdateNavbarOnScroll();
 initSmoothScroll();
+
