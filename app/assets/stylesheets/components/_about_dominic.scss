@@ -1,8 +1,11 @@
+.wrapper-dom {
+  background-color: #D5DCD8;
+}
 .container-dom {
-  height: 100vh;
+  // height: 80vh;
   display: flex;
   align-items: center;
-  padding: 0 75px;
+  padding: 50px 75px;
 }
 .container-dom-sm {
   display: flex;
@@ -11,18 +14,27 @@
   text-align: center;
 }
 .container-dom h2 {
-  margin-top: 0px !important;
-  max-width: 232px
+  // margin-top: 0px !important;
+  // max-width: 232px
+}
+.dp {
+  width: 150px;
+  height: 150px;
+  border-radius: 1px;
 }
 .dp-sm {
   margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 1px;
 }
 #dom-heading {
   @media (min-width: 768px) {
-  width: 231px !important;
+  width: 250px !important;
   }
   @media (max-width: 768px) {
   text-align: center;
+  width: 250px !important;
   }
 }
 

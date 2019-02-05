@@ -1,0 +1,27 @@
+.what-we-do-two {
+background-color: #D5DCD8;
+padding: 1px 0;
+}
+.border-bottom {
+  border-bottom: 1px solid #C3C3C3;
+}
+.what-we-do-two:hover {
+background-color: #1F363B;
+color: white !important;
+}
+.alignment-heading {
+  padding-bottom: 20px;
+  @media (min-width: 768px) {
+  text-align: right;
+  padding-left: 200px;
+  }
+  @media (max-width: 768px) {
+  text-align: center;
+  }
+}
+.alignment-bullets {
+  @media (min-width: 768px) {
+  padding-right: 100px;
+  }
+}
+

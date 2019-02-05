@@ -20,15 +20,13 @@
   margin: 10px !important;
 }
 .case-heading {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  line-height: 40px;
-  margin: 75px;
-  padding-bottom: 15px;
+  margin-bottom: 75px;
   @media (min-width: 768px) {
-  width: 215px !important;
+  width: 230px !important;
   }
   @media (max-width: 768px) {
   text-align: center;
+  width: 245px;
   }
 }
 .card {
