@@ -1,46 +1,40 @@
-<div style="padding: 150px 0px 0px 0px;" class="wrapper-darker-grey" id="marketing">
+<%= render 'shared/navbar_marketing' %>
+<div style="background-color: #F8F8F8; padding: 50px 0 100px 0;" id="marketing">
   <div class="marketing-heading">
-    <h1>currently marketing</h1>
+    <h1>CURRENTLY MARKETING</h1>
+    <hr>
   </div>
   <div class="container-slider" style="margin: 50px 0 0 0";>
     <div class="row">
-      <div class="col-xs-12 col-md-6 align-left about-content">
-
-          <h3 style="padding: 0 30px 0px 30px; margin-bottom: 0px;">land to the south of clapham common,</h3>
-          <h3 style="padding: 0 30px 10px 30px;">sw9 9qr:</h3>
-          <ul>
-            <li>1.27 Hectare brownfield site</li><br>
-            <li>Positive pre-application discussions for redevelopment</li><br>
-            <li>Available freehold with vacant possession</li><br>
-            <li>Inviting unconditional and conditional offers by 12 noon 6th March 2019</li><br>
-            <li>Price on Application</li><br>
-          </ul>
+      <div class="col-xs-12 col-md-6 align-left">
+        <h3 style="padding: 0 32px 0px 32px; margin-bottom: 0px;">LAND TO THE SOUTH OF CLAPHAM COMMON</h3>
+        <h3 style="padding: 0 32px 32px 32px;">SW9 9QR</h3>
+        <ul>
+          <li>1.27 Hectare brownfield site</li><br>
+          <li>Positive pre-application discussions for redevelopment</li><br>
+          <li>Available freehold with vacant possession</li><br>
+          <li>Inviting unconditional and conditional offers by 12 noon 6th March 2019</li><br>
+          <li>Price on Application</li><br>
+          <li style="text-decoration: underline;">DOWNLOAD BROCHURE</li>
+        </ul>
       </div>
       <div class="col-xs-12 col-md-6">
-
-        <div class="carousel">
-
+        <div class="carousel" style="margin: 64px 0px 0px 0px;">
           <input type="checkbox" class="faux-ui-facia">
           <div class="slide" slide="3" annot="24 months to completion">
             <%= image_tag 'site3.png', :class => "marketing-photo"%>
           </div>
-
           <input type="checkbox" class="faux-ui-facia">
           <div class="slide" slide="2" annot="Aerial East">
             <%= image_tag 'site2.png', :class => "marketing-photo"%>
           </div>
-
           <input type="checkbox" class="faux-ui-facia">
           <div class="slide" slide="1" annot="Site area: 1.27 Ha (3.13 Ac)">
             <%= image_tag 'site.png', :class => "marketing-photo"%>
           </div>
-
           <div class="counter" count="3"> / 3</div>
-
         </div>
-
       </div>
     </div>
   </div>
 </div>
-

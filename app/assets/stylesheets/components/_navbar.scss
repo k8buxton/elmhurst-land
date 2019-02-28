@@ -10,6 +10,16 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar-wagon-marketing {
+  background-color: #1F363C;
+  height: 100px;
+  padding: 0px 30px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+}
 
 /* Right section */
 .navbar-wagon-right {
@@ -30,6 +40,8 @@
   font-size: 12px;
   letter-spacing: 1.2px;
   text-align: center;
+  font-weight: 400;
+  // max-width: 120px;
 }
 .navbar-wagon-link:hover {
   // color: rgb(150, 150, 150);
@@ -78,9 +90,13 @@ a:focus {
   color: white;
   text-decoration: none;
 }
-
-
-
+.marketing-tab {
+  color: #641716;
+  background-color: rgba(213,220,216,0.5);
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 20px;
+}
 
 
 

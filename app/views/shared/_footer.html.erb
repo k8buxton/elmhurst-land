@@ -1,20 +1,24 @@
 <div class="wrapper" id="contact">
-  <div class="footer footer-lg hidden-xs hidden-sm">
-      <%= link_to root_path, class: "footer-logo footer-margin-left" do %>
-          <%= image_tag 'el_logo.svg', height: 60%>
-      <% end  %>
-    <div class="footer-margin-right">
-      <h3>contact</h3>
-      <p>&nbspT:&nbsp&nbsp&nbsp&nbsp07977 509 227</p>
-      <a href="mailto:dominic@elmhurstland.com" class="less-margin">E:&nbsp&nbsp&nbsp&nbspdominic@elmhurstland.com</a></li>
-      <br>
-      <br>
-      <p>Berkeley Square House</p>
-      <p>Berkeley Square</p>
-      <p>London, W1J 6BD</p>
-    </div>
+  <div class="footer footer-lg hidden-xs">
+      <div class="footer-margin-right">
+        <h1 style="text-shadow: 1px 1px grey; text-align: left;">CONTACT</h1>
+        <p style="padding-top: 16px;">&nbspT:&nbsp&nbsp&nbsp&nbsp07977 509 227</p>
+        <a href="mailto:dominic@elmhurstland.com" class="less-margin">E:&nbsp&nbsp&nbspdominic@elmhurstland.com</a></li>
+        <br>
+        <br>
+        <p>Berkeley Square House</p>
+        <p>Berkeley Square</p>
+        <p>London, W1J 6BD</p>
+      </div>
+      <div>
+        <%= link_to root_path, class: "footer-logo" do %>
+            <%= image_tag 'el_logo.svg', height: 60%>
+        <% end  %>
+        <p style="font-size: 10px; padding-top: 70px; font-weight: 600; text-align: right;">© 2019 ELMHURST LAND LIMITED</p>
+        <p style="font-size: 10px; font-weight: 600; text-align: right;">Site by: Kate Buxton</p>
+      </div>
   </div>
-  <div class="footer footer-sm hidden-md hidden-lg">
+  <div class="footer footer-sm visible-xs">
     <div class="">
       <%= link_to root_path, class: "footer-logo footer-margin-left" do %>
         <%= image_tag 'el_logo.svg', height: 60%>

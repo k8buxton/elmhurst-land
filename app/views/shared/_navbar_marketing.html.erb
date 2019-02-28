@@ -1,16 +1,11 @@
-<div class="navbar-wagon navbar-fixed-top">
+<div class="navbar-wagon-marketing navbar-fixed-top">
   <!-- Logo -->
-
   <%= link_to root_path, class: "" do %>
       <%= image_tag 'el_logo.svg', height: 45%>
   <% end  %>
-
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs" style="font-family: raleway">
-    <a href="#what-we-do" class="navbar-wagon-item navbar-wagon-link">WHAT WE DO</a>
-    <a href="#about" class="navbar-wagon-item navbar-wagon-link">ABOUT</a>
-    <a href="#case-studies" class="navbar-wagon-item navbar-wagon-link">CASE STUDIES</a>
-    <a href="#contact" class="navbar-wagon-item navbar-wagon-link">CONTACT</a>
+    <a><%= link_to "HOME", root_path, class: "navbar-wagon-item navbar-wagon-link "%></a>
     <a><%= link_to "CURRENTLY MARKETING", marketing_path, class: "navbar-wagon-item navbar-wagon-link marketing-tab"%></a>
   </div>
 
