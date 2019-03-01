@@ -13,16 +13,12 @@
 .sm-cards {
   width: 305px;
   margin: auto;
-  // margin-bottom: 100px;
   margin-top: 75px;
-  // display: flex;
-  // justify-content: space-between;
 }
 .cards p {
   margin: 10px !important;
 }
 .case-heading {
-  // margin-bottom: 75px;
   @media (min-width: 768px) {
   width: 230px !important;
   }
@@ -49,11 +45,8 @@
   height: 180px;
   width: 305px;
   border-radius: 2px 2px 0 0;
-  background-image: url('workers.png');
+  background-image: image-url('workers.png');
   z-index: -1;
-}
-.card-body:hover {
-  // background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), image-url('');
 }
 .cards.card {
   flex: 1 0 auto;
