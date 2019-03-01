@@ -1,12 +1,11 @@
 <div class="navbar-wagon-marketing navbar-fixed-top">
-  <!-- Logo -->
   <%= link_to root_path, class: "" do %>
       <%= image_tag 'el_logo.svg', height: 45%>
   <% end  %>
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs" style="font-family: raleway">
-    <a><%= link_to "HOME", root_path, class: "navbar-wagon-item navbar-wagon-link "%></a>
-    <a><%= link_to "CURRENTLY MARKETING", marketing_path, class: "navbar-wagon-item navbar-wagon-link marketing-tab"%></a>
+    <%= link_to "HOME", root_path, class: "navbar-wagon-item navbar-wagon-link "%>
+    <%= link_to "CURRENTLY MARKETING", marketing_path, class: "navbar-wagon-item navbar-wagon-link marketing-tab"%>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -14,11 +13,8 @@
     <div class="dropdown">
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#what-we-do">What We Do</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#case-studies">Case Studies</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a class="navbar-wagon-item navbar-wagon-link marketing-tab"><%= link_to "Currently Marketing", marketing_path %></a></li>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Currently Marketing", marketing_path, id: "marketing-tab-dropdown"%></li>
       </ul>
     </div>
   </div>

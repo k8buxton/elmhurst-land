@@ -14,20 +14,14 @@
     font-size: 11px;
     line-height: 5px;
     color: #EDEDED;
-    letter-spacing: 1.5px;
     margin-bottom: 0px !important;
-  }
-  h3 {
-    font-size: 28px;
-    margin-bottom: 25px;
-    letter-spacing: 1.5px;
   }
 }
 .footer-lg {
   height: 250px;
 }
 .footer-sm {
-  height: 300px;
+  height: 350px;
   padding: 0px 20px;
   a {
     text-decoration: none !important;
@@ -47,4 +41,7 @@
 }
 .footer-sm p {
   margin-left: 20px;
+}
+.kb {
+ font-size: 10px !important;
 }

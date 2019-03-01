@@ -31,7 +31,12 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  @media (min-width: 768px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 768px) {
+    padding: 0px;
+  }
 }
 
 /* Navbar link */
@@ -96,6 +101,9 @@ a:focus {
   padding: 10px;
   border-radius: 25px;
   margin: 0 20px;
+}
+#marketing-tab-dropdown {
+  color: #641716 !important;
 }
 
 

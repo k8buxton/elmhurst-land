@@ -1,19 +1,4 @@
-// const initSmoothScroll = () => {
-//   const navbar = document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//       e.preventDefault();
-//       document.querySelector(this.getAttribute('href')).scrollIntoView({
-//         behavior: 'smooth'
-//       });
-//     });
-//   });
-// }
-
-// export { initSmoothScroll };
-
-
 // From: http://jsfiddle.net/dizel3d/1eamwt4e/
-
 $(document).on('click', 'a[href^="#what-we-do"]', function(e) {
     var id = $(this).attr('href');
     var $id = $(id);
@@ -68,6 +53,8 @@ $(document).on('click', 'a[href^="#contact"]', function(e) {
     var pos = $("#contact").offset().top -32;
     $('body, html').animate({scrollTop: pos});
 });
+
+
 
 
 
