@@ -20,6 +20,19 @@
   width: 350px;
   height: 250px;
 }
+.marketing-heading {
+  padding: 0 32px 32px 32px;
+  @media (max-width: 768px) {
+    text-align: center;
+      padding: 32px 32px 0px 32px;
+  }
+}
+.address {
+ text-align: center;
+}
+.postcode {
+  margin-bottom: 32px;
+}
 
 .carousel {
   position: relative;
