@@ -1,19 +1,15 @@
 <div class="navbar-wagon navbar-fixed-top">
-  <!-- Logo -->
-
   <%= link_to root_path, class: "" do %>
       <%= image_tag 'el_logo.png', height: 45%>
   <% end  %>
-
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs" style="font-family: "raleway">
+  <div class="navbar-wagon-right hidden-xs">
     <a href="#what-we-do" class="navbar-wagon-item navbar-wagon-link">WHAT WE DO</a>
     <a href="#about" class="navbar-wagon-item navbar-wagon-link">ABOUT</a>
     <a href="#case-studies" class="navbar-wagon-item navbar-wagon-link">CASE STUDIES</a>
     <a href="#contact" class="navbar-wagon-item navbar-wagon-link">CONTACT</a>
     <a><%= link_to "CURRENTLY MARKETING", marketing_path, class: "navbar-wagon-item navbar-wagon-link marketing-tab"%></a>
   </div>
-
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-sm hidden-md hidden-lg">
     <div class="dropdown">

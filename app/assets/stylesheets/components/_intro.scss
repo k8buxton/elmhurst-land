@@ -1,9 +1,11 @@
 .wrapper {
   background-color: #F8F8F8;
 }
-.intro-content h1 {
-  max-width: 190px;
-  // margin-bottom: 40px;
+.intro-content {
+  margin-bottom: 32px;
+  h1 {
+    max-width: 190px;
+  }
 }
 hr {
     border-bottom: 3px solid #333333;

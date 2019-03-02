@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   text-shadow: 2px 2px black;
-  @media (min-width: 940px) {
+  @media (min-width: 992px) {
     animation: zoomin 15s;
     -webkit-animation: zoomin 15s;
   }
@@ -21,10 +21,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  @media (min-width: 768px) {
-  padding: 11 0px 150px;
+  @media (min-width: 960px) {
+  padding: 110px 150px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 540px) {
+  padding: 110px 120px;
+  }
+  @media (max-width: 540px) {
   padding: 110px 50px;
   }
 }
