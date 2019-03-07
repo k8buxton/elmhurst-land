@@ -80,12 +80,12 @@ color: white !important;
   @media (max-width: 768px) {
   padding-right: 32px;
   }
+  li {
+  line-height: 32px;
+  }
 }
 .what-we-do-padding {
   margin: 32px 0 24px 0;
-}
-.alignment-bullets li {
-  line-height: 32px;
 }
 
 
